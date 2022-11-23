@@ -2,3 +2,9 @@
 .DS_Store
 local.properties
 app/build/
+app/release/
+.gradle/file-system.probe
+.gradle/buildOutputCleanup/
+.gradle/7.4/executionHistory/
+.gradle/7.4/fileHashes/
+.gradle/buildOutputCleanup/
