@@ -55,7 +55,8 @@
             android:name="twa_generator"
             android:value="@string/generatorApp" />
 
-        
+        <meta-data android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/app_restrictions" />
 
         
 
