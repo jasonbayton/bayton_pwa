@@ -32,5 +32,6 @@
         }
     }]
     
-  </string>  
+  </string>
+    <string name="restrictionsDescription">Set the page the application relative to the domain. Default is /, so to start on the Android docs page input /android</string>
 </resources>

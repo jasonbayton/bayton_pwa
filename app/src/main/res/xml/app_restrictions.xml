@@ -13,6 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<paths>
-    <files-path path="twa_splash/" name="twa_splash" />
-</paths>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android" >
+    <restriction
+        android:key="startpath"
+        android:title="Application start page (not yet implemented)"
+        android:restrictionType="string"
+    android:description="@string/restrictionsDescription"
+    android:defaultValue="/" />
+</restrictions>
