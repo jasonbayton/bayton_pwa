@@ -42,7 +42,7 @@ def twaManifest = [
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
     splashScreenFadeOutDuration: 500,
     generatorApp: 'PWABuilder', // Application that generated the Android Project
-    // The fallback strategy for when Trusted Web Activity is not avilable. Possible values are
+    // The fallback strategy for when Trusted Web Activity is not available. Possible values are
     // 'customtabs' and 'webview'.
     fallbackType: 'customtabs',
     enableSiteSettingsShortcut: 'true',
@@ -55,8 +55,8 @@ android {
         applicationId "org.bayton"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 1006
-        versionName "1.0.0.6"
+        versionCode 1007
+        versionName "1.0.0.7"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
