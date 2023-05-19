@@ -55,8 +55,8 @@ android {
         applicationId "org.bayton"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 1009
-        versionName "1.0.0.9"
+        versionCode 1010
+        versionName "1.0.1.0"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
