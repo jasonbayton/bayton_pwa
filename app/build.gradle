@@ -50,11 +50,11 @@ def twaManifest = [
 ]
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
     defaultConfig {
         applicationId "org.bayton"
         minSdkVersion 19
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode 1010
         versionName "1.0.1.0"
 
@@ -194,6 +194,6 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     
-        implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.3.0'
+        implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.4.0'
     
 }
