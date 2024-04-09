@@ -8,3 +8,5 @@ app/release/
 .gradle/7.4/executionHistory/
 .gradle/7.4/fileHashes/
 .gradle/buildOutputCleanup/
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.idea/deploymentTargetDropDown.xml
