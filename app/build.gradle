@@ -31,7 +31,7 @@ def twaManifest = [
     navigationColorDark: '#FF4500', // The color used for the dark navbar.
     navigationDividerColor: '#FF4500', // The navbar divider color.
     navigationDividerColorDark: '#FF4500', // The dark navbar divider color.
-    backgroundColor: '#00284c', // The color used for the splash screen background.
+    backgroundColor: '#000000', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
     // - name: String that will show up in the shortcut.
@@ -55,8 +55,8 @@ android {
         applicationId "org.bayton"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 1017
-        versionName "1.0.1.7"
+        versionCode 1018
+        versionName "1.0.1.8"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
