@@ -16,7 +16,7 @@
 <restrictions xmlns:android="http://schemas.android.com/apk/res/android" >
     <restriction
         android:key="startPath"
-        android:title="Application start page (not yet implemented)"
+        android:title="@string/application_start_page_not_yet_implemented"
         android:restrictionType="string"
     android:description="@string/restrictionsDescription"
     android:defaultValue="/" />
