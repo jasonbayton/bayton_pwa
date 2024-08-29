@@ -10,3 +10,7 @@ app/release/
 .gradle/buildOutputCleanup/
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
 .idea/deploymentTargetDropDown.xml
+/.gradle
+/.idea
+/.kotlin
+/build
