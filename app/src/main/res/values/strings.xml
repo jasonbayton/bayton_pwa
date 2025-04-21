@@ -33,6 +33,6 @@
     }]
     
   </string>
-    <string name="restrictionsDescription">Set the page the application relative to the domain. Default is /, so to start on the Android docs page input /android</string>
-    <string name="application_start_page_not_yet_implemented">Application start page (not yet implemented)</string>
+    <string name="restrictionsDescription">Set the page the application relative to the domain. Default is /, so to start on the Android docs page input /android.</string>
+    <string name="application_start_page_not_yet_implemented">Application start page</string>
 </resources>
